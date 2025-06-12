@@ -1,7 +1,7 @@
-📌 Project Overview
+Project Overview
 The Mood-Based Music Playlist Generator is a Python application that analyzes the emotional tone of a user’s text input (such as journal entries, notes, or tweets) and creates a personalized Spotify playlist that matches the detected mood.
 
-🧠 Objective
+ Objective
 Understand the user's emotional state using Natural Language Processing (NLP)
 
 Map detected emotions to specific music genres or moods
@@ -10,7 +10,7 @@ Automatically generate a playlist using the Spotify API
 
 Help users enhance their emotional well-being through music
 
-🧱 Technology Stack
+ Technology Stack
 Python – Core programming language
 
 NLP Libraries:
@@ -31,7 +31,7 @@ spotipy – Python wrapper for Spotify API
 
 (Optional) Streamlit or Flask – For GUI
 
-🧩 Core Features
+ Core Features
 1. Text Input Handling
 Accept text from the user via:
 
@@ -92,7 +92,7 @@ mood_playlist_generator/
 ├── mood_mapping.py        # Maps mood to genre
 ├── utils.py               # Helper functions
 └── README.md              # Project description
-🚀 How It Works (Workflow)
+ How It Works (Workflow)
 User enters a text journal or note
 
 NLP model detects mood: e.g., “joy”
